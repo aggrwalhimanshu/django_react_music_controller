@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,django,react
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,django,react
+# Created by https://www.toptal.com/developers/gitignore/api/windows,django,react,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,django,react,vscode
 
 ### Django ###
 *.log
@@ -165,6 +165,14 @@ psd
 thumb
 sketch
 
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -191,4 +199,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,django,react
+# End of https://www.toptal.com/developers/gitignore/api/windows,django,react,vscode
